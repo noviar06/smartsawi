@@ -1,0 +1,85 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --pr-color: #01a91e;
+}
+
+/* section {
+    padding: 50px 0 100px;
+} */
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #223745 !important;
+    padding: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-primary {
+    color: #fff;
+    text-decoration: none;
+    border: 2px;
+    width: 133px;
+    height: 40px;
+    background-color: var(--pr-color);
+    font-size: 16px;
+    font-weight: 700;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-primary:hover {
+    color: #f3f3f3;
+    background-color: #41b714;
+}
+
+#hero {
+    background-color: #f3f3f3;
+}
+
+#hero p {
+    margin-bottom: 50px;
+}
+
+#about p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-hero {
+    color: #fff;
+    text-decoration: none;
+    border: 2px;
+    width: 133px;
+    height: 40px;
+    background-color: var(--pr-color);
+    font-size: 16px;
+    font-weight: 700;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-hero:hover {
+    color: #f3f3f3;
+    background-color: #41b714;
+}
+
+#contact {
+    background-color: #f3f3f3;
+}
